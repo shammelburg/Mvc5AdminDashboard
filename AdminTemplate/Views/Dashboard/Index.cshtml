@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div ng-controller="dashboard">
+    <div class="jumbotron">
+        <h1>Dashboard</h1>
+        <p class="lead">{{message}}</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>And... GO!</h2>
+            <p>Now that this repo has saved you some time, get on with it!</p>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>
+        app.controller('dashboard', ['$scope', function ($scope) {
+            $scope.message = 'MVC 5 - SB Admin 2 - AngularJS - Windows Authentication'
+        }])
+    </script>
+}

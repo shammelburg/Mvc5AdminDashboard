@@ -1,0 +1,40 @@
+﻿.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+/***************************** Dropzone Styling *****************************/
+
+.advancedDemo li {
+    background-color: #4e73df;
+    border: none;
+    border-radius: 15px;
+    float: left;
+    font-weight: 700;
+    margin: 15px;
+    width: 265px;
+    min-height: 100px;
+    list-style: none;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+/*tbody {
+    display: block;
+    max-height: 200px;
+    overflow: auto;
+}
+
+    thead, tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed; /* even columns width , fix width of table too
+    }
+
+thead {
+    width: calc( 100% - 1em ) 
+}*/
